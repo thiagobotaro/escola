@@ -16,5 +16,7 @@ const idadeMinima = 18;
 const idadeEstudate = 16;
 
 if (idadeEstudate >= idadeMinima) {
-    console.log();
+    console.log('Não precisa de autorização');
+}else{
+    console.log('Precisa de autorização');
 }
